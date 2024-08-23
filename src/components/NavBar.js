@@ -1,9 +1,9 @@
 import { useState,useEffect } from "react";
 import {Navbar, Container,Nav} from "react-bootstrap";
-import logo from '../assets/img/LogoPortfolio.png';
-import navIcon from '../assets/img/navicon.png';
-import navIcon2 from '../assets/img/navicon2.png';
-import navIcon3 from '../assets/img/navicon3.png';
+import logo from '../assets/img/Portfolio-image.png';
+import navIcon from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
 
 
 export const NavBar = ()=> {
@@ -51,10 +51,9 @@ export const NavBar = ()=> {
         </Nav>
         <span  className="navbar-text">
             <div className="social-icon">
-                <a href="#">
-                    <img src={navIcon} alt=""></img> </a>
-                    <a href="#">  <img src={navIcon2} alt=""></img></a>
-                    <a href="#"> <img src={navIcon3} alt=""></img></a>
+                <a href="https://linkedin.com/in/bryan-georges-411989238/"><img src={navIcon} alt=""></img> </a>
+                <a href="https://github.com/bryangrgs"> <img src={navIcon2} alt=""></img></a>
+                <a href="https://www.instagram.com/l3ryan_georges/"><img src={navIcon3} alt=""></img></a>
                
             </div>
             <button className="vvd" onClick={()=> console.log('Conectado')}>

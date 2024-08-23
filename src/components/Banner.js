@@ -1,12 +1,14 @@
 import {Container, Col, Row} from "react-bootstrap";
 import {ArrowRightCircle} from 'react-bootstrap-icons';
-import LogoPortfolio from "../assets/img/LogoPortfolio.png";
+import LogoBanner from "../assets/img/LogoBanner.png";
 import {useState,useEffect} from 'react';
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
 
 export const Banner = ()=>{
     const[loopNum, setLoopNum]=useState(0);
     const[eliminado, esEliminado]=useState(false);
-    const paraRotar=["Desarrollador web","Diseñador web","backend developer"]
+    const paraRotar=["Desarrollador web","Diseñador web","Backend developer"]
     const[texto,cambiarTexto]=useState('');
     const [delta , setDelta]= useState(300- Math.random()*100);
     const periodo= 2000;
@@ -45,13 +47,18 @@ export const Banner = ()=>{
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline"> Bienvenido a  mi portafolio</span>
+                        <TrackVisibility>
+                        { ({ isVisible}) =>
+                        <div className={isVisible ? "animated_animated animate_fadeIn" : "" }>
+                        <span className="tagline"> Bienvenido a  mi Curriculum</span>
                         <h1>{`Hola soy Bryan Georges `}<span className="wrap">{texto}</span></h1>
-                        <p>Desarrollador</p>
+                        <p>Estudiante de Ingenieria en Sistemas de Información</p>
                         <button onClick={()=> console.log('Conectado')}>Contactame <ArrowRightCircle size={25}/> </button>
+                        </div>}
+                        </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={LogoPortfolio} alt="Headder IMG"/>
+                        <img className="logob" src={LogoBanner} alt="Headder IMG"/>
                     </Col>
                 </Row>
             </Container>
