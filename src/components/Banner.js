@@ -1,6 +1,6 @@
 import {Container, Col, Row} from "react-bootstrap";
 import {ArrowRightCircle} from 'react-bootstrap-icons';
-import LogoBanner from "../assets/img/LogoBanner.png";
+import LogoBanner from "../assets/img/imgPortfolio/LogoPortfolio.png";
 import {useState,useEffect} from 'react';
 import 'animate.css';
 import TrackVisibility from "react-on-screen";

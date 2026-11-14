@@ -1,9 +1,9 @@
 import { Container,Row,Col, Tab, Nav } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCard";
 
-import ProjImg1 from "../assets/img/Proyecto1.png";
-import ProjImg2 from "../assets/img/Proyecto2.png";
-import ProjImg3 from "../assets/img/navicon.png";
+import ProjImg1 from "../assets/img/imgPortfolio/Proyecto1.png";
+import ProjImg2 from "../assets/img/imgPortfolio/Proyecto2.png";
+import ProjImg3 from "../assets/img/imgPortfolio/navicon.png";
 import Proj2Img1 from "../assets/img/imgUtn/Cimage.jpeg";
 import Proj2Img2 from "../assets/img/imgUtn/Robocodeimg.jpeg";
 import 'animate.css';

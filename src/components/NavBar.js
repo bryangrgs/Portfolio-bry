@@ -1,9 +1,9 @@
 import { useState,useEffect } from "react";
 import {Navbar, Container,Nav} from "react-bootstrap";
-import logo from '../assets/img/Portfolio-image.png';
-import navIcon from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import logo from '../assets/img/imgPortfolio/Portfolio-image.png';
+import navIcon from '../assets/img/imgPortfolio/nav-icon1.svg';
+import navIcon2 from '../assets/img/imgPortfolio/nav-icon2.svg';
+import navIcon3 from '../assets/img/imgPortfolio/nav-icon3.svg';
 
 
 export const NavBar = ()=> {

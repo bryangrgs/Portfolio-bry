@@ -2,16 +2,16 @@ import { Container,Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/lenguajes/HTML&CSS.png";
-import meter2 from "../assets/img/desarrollador-image.png";
-import meter3 from "../assets/img/front-image.png";
-import meter4 from "../assets/img/react-icon.png";
+import meter2 from "../assets/img/imgPortfolio/desarrollador-image.png";
+import meter3 from "../assets/img/imgPortfolio/front-image.png";
+import meter4 from "../assets/img/imgPortfolio/react-icon.png";
 import meter5 from "../assets/img/lenguajes/js-image.jpg";
 import meter6 from "../assets/img/lenguajes/node-image.jpg";
 import meter7 from "../assets/img/lenguajes/python.png";
 import meter8 from "../assets/img/lenguajes/sql.png";
 import meter9 from "../assets/img/imgUtn/Cimage.jpeg";
 
-import colorSharp from "../assets/img/color-sharp.png";
+import colorSharp from "../assets/img/imgPortfolio/color-sharp.png";
 
 export const Skills = ()=>{
     const responsive = {
